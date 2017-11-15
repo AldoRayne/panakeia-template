@@ -1,0 +1,53 @@
+.welcome-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 80px;
+  overflow: hidden;
+
+  header {
+    margin-top: 300px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    line-height: 48px;
+
+    h1 {
+      font-size: 72px;
+      font-weight: 300;
+    }
+
+    p {
+      font-size: 30px;
+      font-weight: 700;
+    }
+  }
+
+  ul {
+    margin: 130px 0 80px;
+
+    h2 {
+      margin-top: 35px;
+      color: #ffffff;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 24px;
+    }
+
+    p {
+      margin-top: 29px;
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 30px;
+    }
+  }
+  footer {
+    margin-bottom: 40px;
+  }
+}
+
+.welcome-image {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}

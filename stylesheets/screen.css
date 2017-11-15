@@ -69,7 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 1, ../sass/_app-header.scss */
 .header .row {
-  height: 120px;
+  height: 100px;
 }
 
 /* line 5, ../sass/_app-header.scss */
@@ -104,6 +104,102 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-decoration: none;
 }
 
+/* line 1, ../sass/_app-welcome-section.scss */
+.welcome-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 80px;
+  overflow: hidden;
+}
+/* line 8, ../sass/_app-welcome-section.scss */
+.welcome-section header {
+  margin-top: 300px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  line-height: 48px;
+}
+/* line 14, ../sass/_app-welcome-section.scss */
+.welcome-section header h1 {
+  font-size: 72px;
+  font-weight: 300;
+}
+/* line 19, ../sass/_app-welcome-section.scss */
+.welcome-section header p {
+  font-size: 30px;
+  font-weight: 700;
+}
+/* line 25, ../sass/_app-welcome-section.scss */
+.welcome-section ul {
+  margin: 130px 0 80px;
+}
+/* line 28, ../sass/_app-welcome-section.scss */
+.welcome-section ul h2 {
+  margin-top: 35px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 24px;
+}
+/* line 36, ../sass/_app-welcome-section.scss */
+.welcome-section ul p {
+  margin-top: 29px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+}
+/* line 44, ../sass/_app-welcome-section.scss */
+.welcome-section footer {
+  margin-bottom: 40px;
+}
+
+/* line 49, ../sass/_app-welcome-section.scss */
+.welcome-image {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+/* line 1, ../sass/_app-news-section.scss */
+.news-section {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 82px;
+  background-color: #edeff1;
+}
+/* line 7, ../sass/_app-news-section.scss */
+.news-section ul p {
+  width: 288px;
+}
+
+/* line 12, ../sass/_app-news-section.scss */
+.news-section-title {
+  margin-bottom: 84px;
+  color: #31353e;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+/* line 20, ../sass/_app-news-section.scss */
+.news-title {
+  margin: 39px auto 0;
+  color: #31353e;
+  line-height: 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* line 28, ../sass/_app-news-section.scss */
+.news-description {
+  margin: 0 auto 39px;
+  color: #31353e;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
 /* line 1, ../sass/_app-flex.scss */
 .row-flex-end {
   display: flex;
@@ -111,7 +207,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   align-items: center;
 }
 
+/* line 7, ../sass/_app-flex.scss */
+.content-alignment {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 /* line 1, ../sass/_app-container-custom-width.scss */
 .container-custom-width {
   width: 1200px;
+}
+
+/* line 1, ../sass/_app-buttons.scss */
+.link-button {
+  border-radius: 27px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: #ffffff;
 }
