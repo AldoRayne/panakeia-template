@@ -1,3 +1,5 @@
+@import "app-variables";
+
 .news-section {
   width: 100%;
   min-height: 100vh;
@@ -7,6 +9,21 @@
   ul p {
     width: 288px;
   }
+
+  button {
+    width: 179px;
+    background-color: #ffffff;
+    color: #4e5159;
+    font-family: $Roboto-Font;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+
+    &:hover {
+      background-color: #dd4b2b;
+      color: #ffffff;
+    }
+  }
 }
 
 .news-section-title {
@@ -15,6 +32,7 @@
   font-size: 30px;
   font-weight: 700;
   line-height: 24px;
+  font-family: $Roboto-Slab-Font;
 }
 
 .news-title {
@@ -23,12 +41,15 @@
   line-height: 30px;
   font-size: 24px;
   font-weight: 700;
+  font-family: $Roboto-Slab-Font;
 }
 
 .news-description {
-  margin: 0 auto 39px;
+  margin: 10px auto 39px;
   color: #31353e;
   font-size: 15px;
   font-weight: 300;
   line-height: 30px;
+  font-family: $Roboto-Font;
 }
+

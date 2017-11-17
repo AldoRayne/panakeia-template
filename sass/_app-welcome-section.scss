@@ -1,3 +1,5 @@
+@import "app-variables";
+
 .welcome-section {
   position: relative;
   width: 100%;
@@ -10,6 +12,7 @@
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
     color: #ffffff;
     line-height: 48px;
+    font-family: $Roboto-Slab-Font;
 
     h1 {
       font-size: 72px;
@@ -31,6 +34,7 @@
       font-size: 30px;
       font-weight: 700;
       line-height: 24px;
+      font-family: $Roboto-Slab-Font;
     }
 
     p {
@@ -39,10 +43,26 @@
       font-size: 15px;
       font-weight: 300;
       line-height: 30px;
+      font-family: $Roboto-Font;
     }
   }
   footer {
     margin-bottom: 40px;
+  }
+
+  button {
+    width: 213px;
+    background-color: #ffffff;
+    color: #612316;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: $Roboto-Slab-Font;
+
+    &:hover {
+      background-color: #dd4b2b;
+      color: #ffffff;
+    }
   }
 }
 

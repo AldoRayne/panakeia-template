@@ -1,0 +1,11 @@
+.button-comp {
+  height: 54px;
+  border-radius: 27px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+  }
+}
