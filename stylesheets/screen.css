@@ -287,7 +287,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border: 1px solid rgba(255, 255, 255, 0.5);
   background: none;
 }
-/* line 39, ../sass/_app-newsletter-block.scss */
+/* line 37, ../sass/_app-newsletter-block.scss */
+.sign-up-form input {
+  outline: none;
+}
+/* line 40, ../sass/_app-newsletter-block.scss */
 .sign-up-form input[type="email"] {
   margin: 10px 20px;
   background: none;
@@ -298,11 +302,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 30px;
   font-family: "Roboto Slab", "Garamond", "Georgia", "New York", "Times", serif;
 }
-/* line 50, ../sass/_app-newsletter-block.scss */
+/* line 51, ../sass/_app-newsletter-block.scss */
 .sign-up-form input::-webkit-input-placeholder {
   color: #f3f4f6;
 }
-/* line 55, ../sass/_app-newsletter-block.scss */
+/* line 56, ../sass/_app-newsletter-block.scss */
 .sign-up-form button {
   position: absolute;
   right: 0;
@@ -315,28 +319,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: "Roboto Slab", "Garamond", "Georgia", "New York", "Times", serif;
   border: none;
 }
-/* line 67, ../sass/_app-newsletter-block.scss */
+/* line 68, ../sass/_app-newsletter-block.scss */
 .sign-up-form button:hover {
   background-color: #dd4b2b;
   color: #ffffff;
   border: none;
 }
 
-/* line 75, ../sass/_app-newsletter-block.scss */
+/* line 76, ../sass/_app-newsletter-block.scss */
 .sign-up-title {
   width: 500px;
   margin-top: 120px;
   color: #191b29;
 }
 
-/* line 81, ../sass/_app-newsletter-block.scss */
+/* line 82, ../sass/_app-newsletter-block.scss */
 .sign-up-title-description {
   margin-top: 23px;
   width: 500px;
   color: #191b29;
 }
 
-/* line 87, ../sass/_app-newsletter-block.scss */
+/* line 88, ../sass/_app-newsletter-block.scss */
 .place-for-image {
   margin-top: 120px;
   width: 200px;
@@ -344,7 +348,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border: 1px solid #dbdbdb;
 }
 
-/* line 94, ../sass/_app-newsletter-block.scss */
+/* line 95, ../sass/_app-newsletter-block.scss */
 .orange-button {
   margin-top: 48px;
   width: 213px;
@@ -355,12 +359,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 400;
   line-height: 30px;
 }
-/* line 104, ../sass/_app-newsletter-block.scss */
+/* line 105, ../sass/_app-newsletter-block.scss */
 .orange-button:hover {
   background-color: #4b4e73;
 }
 
-/* line 109, ../sass/_app-newsletter-block.scss */
+/* line 110, ../sass/_app-newsletter-block.scss */
 .purple-button {
   margin-top: 48px;
   width: 213px;
@@ -371,7 +375,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 400;
   line-height: 30px;
 }
-/* line 119, ../sass/_app-newsletter-block.scss */
+/* line 120, ../sass/_app-newsletter-block.scss */
 .purple-button:hover {
   background-color: #dd4b2b;
 }
