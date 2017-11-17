@@ -1,14 +1,14 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
 //fonts
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 //reset
 @import "compass/reset";
+
+//components
+@import "components/app-button-component";
+@import "components/app-title-component";
+@import "components/app-main-text-comp";
 
 //other files
 @import "app-variables";
@@ -19,7 +19,4 @@
 @import "app-site-footer";
 @import "app-flex";
 @import "app-container-custom-width";
-
-//components
-@import "components/app-button-component";
 

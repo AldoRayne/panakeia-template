@@ -1,7 +1,3 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300");
 /* line 5, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
@@ -67,6 +63,35 @@ a img {
 /* line 116, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
+}
+
+/* line 1, ../sass/components/_app-button-component.scss */
+.button-comp {
+  height: 54px;
+  border-radius: 27px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+/* line 6, ../sass/components/_app-button-component.scss */
+.button-comp:hover {
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+}
+
+/* line 3, ../sass/components/_app-title-component.scss */
+.title-comp {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 24px;
+  font-family: "Roboto Slab", "Garamond", "Georgia", "New York", "Times", serif;
+}
+
+/* line 3, ../sass/components/_app-main-text-comp.scss */
+.main-text-comp {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  font-family: "Roboto", "Arial", "Helvetica", "Verdana", sans-serif;
 }
 
 /* line 3, ../sass/_app-header.scss */
@@ -141,25 +166,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .welcome-section ul h2 {
   margin-top: 35px;
   color: #ffffff;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 24px;
-  font-family: "Roboto Slab", "Garamond", "Georgia", "New York", "Times", serif;
 }
-/* line 40, ../sass/_app-welcome-section.scss */
+/* line 36, ../sass/_app-welcome-section.scss */
 .welcome-section ul p {
   margin-top: 29px;
   color: #ffffff;
-  font-size: 15px;
-  font-weight: 300;
-  line-height: 30px;
-  font-family: "Roboto", "Arial", "Helvetica", "Verdana", sans-serif;
 }
-/* line 49, ../sass/_app-welcome-section.scss */
+/* line 41, ../sass/_app-welcome-section.scss */
 .welcome-section footer {
   margin-bottom: 40px;
 }
-/* line 53, ../sass/_app-welcome-section.scss */
+/* line 45, ../sass/_app-welcome-section.scss */
 .welcome-section button {
   width: 213px;
   background-color: #ffffff;
@@ -169,13 +186,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 30px;
   font-family: "Roboto Slab", "Garamond", "Georgia", "New York", "Times", serif;
 }
-/* line 62, ../sass/_app-welcome-section.scss */
+/* line 54, ../sass/_app-welcome-section.scss */
 .welcome-section button:hover {
   background-color: #dd4b2b;
   color: #ffffff;
 }
 
-/* line 69, ../sass/_app-welcome-section.scss */
+/* line 61, ../sass/_app-welcome-section.scss */
 .welcome-image {
   position: absolute;
   width: 100%;
@@ -213,13 +230,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .news-section-title {
   margin-bottom: 84px;
   color: #31353e;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 24px;
-  font-family: "Roboto Slab", "Garamond", "Georgia", "New York", "Times", serif;
 }
 
-/* line 38, ../sass/_app-news-section.scss */
+/* line 34, ../sass/_app-news-section.scss */
 .news-title {
   margin: 39px auto 0;
   color: #31353e;
@@ -229,14 +242,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: "Roboto Slab", "Garamond", "Georgia", "New York", "Times", serif;
 }
 
-/* line 47, ../sass/_app-news-section.scss */
+/* line 43, ../sass/_app-news-section.scss */
 .news-description {
   margin: 10px auto 39px;
   color: #31353e;
-  font-size: 15px;
-  font-weight: 300;
-  line-height: 30px;
-  font-family: "Roboto", "Arial", "Helvetica", "Verdana", sans-serif;
 }
 
 /* line 3, ../sass/_app-newsletter-block.scss */
@@ -252,31 +261,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .section-title {
   margin-top: 40px;
   color: #ffffff;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 48px;
-  font-family: "Roboto Slab", "Garamond", "Georgia", "New York", "Times", serif;
 }
 
-/* line 20, ../sass/_app-newsletter-block.scss */
+/* line 16, ../sass/_app-newsletter-block.scss */
 .section-title-description {
   margin: 22px auto 0;
   width: 533px;
   color: #ffffff;
-  font-size: 15px;
-  font-weight: 300;
-  line-height: 24px;
-  font-family: "Roboto", "Arial", "Helvetica", "Verdana", sans-serif;
 }
 
-/* line 30, ../sass/_app-newsletter-block.scss */
+/* line 22, ../sass/_app-newsletter-block.scss */
 .newsletter-image {
   position: absolute;
   width: 100%;
   height: 300px;
 }
 
-/* line 36, ../sass/_app-newsletter-block.scss */
+/* line 28, ../sass/_app-newsletter-block.scss */
 .sign-up-form {
   position: relative;
   margin: 43px auto 0;
@@ -286,7 +287,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border: 1px solid rgba(255, 255, 255, 0.5);
   background: none;
 }
-/* line 47, ../sass/_app-newsletter-block.scss */
+/* line 39, ../sass/_app-newsletter-block.scss */
 .sign-up-form input[type="email"] {
   margin: 10px 20px;
   background: none;
@@ -297,11 +298,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 30px;
   font-family: "Roboto Slab", "Garamond", "Georgia", "New York", "Times", serif;
 }
-/* line 58, ../sass/_app-newsletter-block.scss */
+/* line 50, ../sass/_app-newsletter-block.scss */
 .sign-up-form input::-webkit-input-placeholder {
   color: #f3f4f6;
 }
-/* line 63, ../sass/_app-newsletter-block.scss */
+/* line 55, ../sass/_app-newsletter-block.scss */
 .sign-up-form button {
   position: absolute;
   right: 0;
@@ -314,36 +315,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: "Roboto Slab", "Garamond", "Georgia", "New York", "Times", serif;
   border: none;
 }
-/* line 75, ../sass/_app-newsletter-block.scss */
+/* line 67, ../sass/_app-newsletter-block.scss */
 .sign-up-form button:hover {
   background-color: #dd4b2b;
   color: #ffffff;
   border: none;
 }
 
-/* line 83, ../sass/_app-newsletter-block.scss */
+/* line 75, ../sass/_app-newsletter-block.scss */
 .sign-up-title {
   width: 500px;
   margin-top: 120px;
   color: #191b29;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 48px;
-  font-family: "Roboto Slab", "Garamond", "Georgia", "New York", "Times", serif;
 }
 
-/* line 93, ../sass/_app-newsletter-block.scss */
+/* line 81, ../sass/_app-newsletter-block.scss */
 .sign-up-title-description {
   margin-top: 23px;
   width: 500px;
   color: #191b29;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 30px;
-  font-family: "Roboto", "Arial", "Helvetica", "Verdana", sans-serif;
 }
 
-/* line 103, ../sass/_app-newsletter-block.scss */
+/* line 87, ../sass/_app-newsletter-block.scss */
 .place-for-image {
   margin-top: 120px;
   width: 200px;
@@ -351,7 +344,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border: 1px solid #dbdbdb;
 }
 
-/* line 110, ../sass/_app-newsletter-block.scss */
+/* line 94, ../sass/_app-newsletter-block.scss */
 .orange-button {
   margin-top: 48px;
   width: 213px;
@@ -362,12 +355,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 400;
   line-height: 30px;
 }
-/* line 120, ../sass/_app-newsletter-block.scss */
+/* line 104, ../sass/_app-newsletter-block.scss */
 .orange-button:hover {
   background-color: #4b4e73;
 }
 
-/* line 125, ../sass/_app-newsletter-block.scss */
+/* line 109, ../sass/_app-newsletter-block.scss */
 .purple-button {
   margin-top: 48px;
   width: 213px;
@@ -378,7 +371,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 400;
   line-height: 30px;
 }
-/* line 135, ../sass/_app-newsletter-block.scss */
+/* line 119, ../sass/_app-newsletter-block.scss */
 .purple-button:hover {
   background-color: #dd4b2b;
 }
@@ -416,17 +409,4 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 1, ../sass/_app-container-custom-width.scss */
 .container-custom-width {
   width: 1200px;
-}
-
-/* line 1, ../sass/components/_app-button-component.scss */
-.button-comp {
-  height: 54px;
-  border-radius: 27px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-}
-/* line 6, ../sass/components/_app-button-component.scss */
-.button-comp:hover {
-  cursor: pointer;
-  text-decoration: none;
-  border: none;
 }
